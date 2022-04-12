@@ -24,14 +24,14 @@ fun main() {
 
 }
 fun names(name:List<String>):List<String> {
-    var newlist= mutableListOf<String>()
+    var newList= mutableListOf<String>()
     name.forEachIndexed { index, names ->
         if((index%2)==0){
-            newlist.add(names)
+            newList.add(names)
         }
     }
 
-    return newlist
+    return newList
 }
 fun peopleHeight(heights:List<Int>):String{
 
